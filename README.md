@@ -1,3 +1,12 @@
+<p align="center">
+  <img src="assets/logo.png" width="300">
+</p>
+
+<h1 align="center">OSKA AI</h1>
+
+<p align="center">
+Enterprise Intelligence Without the Cloud
+</p>
 # OSKA-AI
 Offline Smart Knowledge Assistant - Enterprise Intelligence Without the Cloud
 # OSKA AI
