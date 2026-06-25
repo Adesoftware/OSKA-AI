@@ -23,7 +23,6 @@ OSKA AI is an offline enterprise assistant built with Python and Ollama. It help
 
 * Python 3.13
 * Ollama
-* Qwen 2.5 1.5B
 * Requests Library
 * Visual Studio Code
 * Git & GitHub

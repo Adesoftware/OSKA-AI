@@ -4,15 +4,13 @@ def ask_oska(prompt):
     url = "http://127.0.0.1:11434/api/generate"
 
     payload = {
-        "model": "qwen2.5:1.5b",
+        "model": "qwen2.5:3b",
         "prompt": prompt,
-        "stream": False
+        "stream": True
     }
 
     try:
-        response = requests.post(url, json=payload, timeout=60)
-
-        print("Status Code:", response.status_code)
+        response = requests.post(url, json=payload, timeout=300)
 
         data = response.json()
 
