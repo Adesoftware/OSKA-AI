@@ -14,6 +14,7 @@ WizardStyle=modern
 
 [Files]
 Source: "dist\OSKA AI.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "assets\*"; DestDir: "{app}\assets"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{group}\OSKA AI"; Filename: "{app}\OSKA AI.exe"
